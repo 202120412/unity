@@ -3,8 +3,13 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 22
   productGUID: 7f3cdbc1c5dba8c42a2491208f525ed7
+=======
+  serializedVersion: 23
+  productGUID: 0f2441c8edeef4245948951a0715a407
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +18,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: "\uC720\uB2C8\uD2F0\uC911\uAC04\uACFC\uC81C"
+=======
+  productName: My project (2)
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -42,8 +51,13 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
+<<<<<<< HEAD
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
+=======
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -125,7 +139,11 @@ PlayerSettings:
   stadiaTargetFramerate: 0
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
+<<<<<<< HEAD
   vulkanEnablePreTransform: 0
+=======
+  vulkanEnablePreTransform: 1
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   m_SupportedAspectRatios:
@@ -159,7 +177,11 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
+<<<<<<< HEAD
   AndroidMinSdkVersion: 19
+=======
+  AndroidMinSdkVersion: 22
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -215,6 +237,10 @@ PlayerSettings:
   iOSLaunchScreeniPadCustomStoryboardPath: 
   iOSDeviceRequirements: []
   iOSURLSchemes: []
+<<<<<<< HEAD
+=======
+  macOSURLSchemes: []
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   iOSBackgroundModes: 0
   iOSMetalForceHardShadows: 0
   metalEditorSupport: 1
@@ -232,7 +258,11 @@ PlayerSettings:
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
+<<<<<<< HEAD
   templatePackageId: com.unity.template.3d@5.0.4
+=======
+  templatePackageId: com.unity.template.3d@8.1.0
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
@@ -318,7 +348,11 @@ PlayerSettings:
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
+<<<<<<< HEAD
     m_Automatic: 0
+=======
+    m_Automatic: 1
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -342,9 +376,30 @@ PlayerSettings:
     Android: 1
     iPhone: 1
     tvOS: 1
+<<<<<<< HEAD
   m_BuildTargetGroupLightmapEncodingQuality: []
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetNormalMapEncoding: []
+=======
+  m_BuildTargetGroupLightmapEncodingQuality:
+  - m_BuildTarget: Android
+    m_EncodingQuality: 1
+  - m_BuildTarget: iPhone
+    m_EncodingQuality: 1
+  - m_BuildTarget: tvOS
+    m_EncodingQuality: 1
+  m_BuildTargetGroupLightmapSettings: []
+  m_BuildTargetNormalMapEncoding:
+  - m_BuildTarget: Android
+    m_Encoding: 1
+  - m_BuildTarget: iPhone
+    m_Encoding: 1
+  - m_BuildTarget: tvOS
+    m_Encoding: 1
+  m_BuildTargetDefaultTextureCompressionFormat:
+  - m_BuildTarget: Android
+    m_Format: 3
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -363,6 +418,10 @@ PlayerSettings:
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
   switchUseGOLDLinker: 0
+<<<<<<< HEAD
+=======
+  switchLTOSetting: 0
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   switchApplicationID: 0x01004b9000490000
   switchNSODependencies: 
   switchTitleNames_0: 
@@ -566,7 +625,10 @@ PlayerSettings:
   ps4videoRecordingFeaturesUsed: 0
   ps4contentSearchFeaturesUsed: 0
   ps4CompatibilityPS5: 0
+<<<<<<< HEAD
   ps4AllowPS5Detection: 0
+=======
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   ps4GPU800MHz: 1
   ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
@@ -591,7 +653,15 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
+<<<<<<< HEAD
   scriptingDefineSymbols: {}
+=======
+  scriptingDefineSymbols:
+    Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    Standalone: CROSS_PLATFORM_INPUT
+    Windows Store Apps: MOBILE_INPUT
+    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -601,7 +671,10 @@ PlayerSettings:
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
+<<<<<<< HEAD
   useReferenceAssemblies: 1
+=======
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   enableRoslynAnalyzers: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
@@ -637,6 +710,10 @@ PlayerSettings:
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
+<<<<<<< HEAD
+=======
+  vcxProjDefaultLanguage: 
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 
@@ -687,4 +764,9 @@ PlayerSettings:
   organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
+<<<<<<< HEAD
+=======
+  playerDataPath: 
+  forceSRGBBlit: 1
+>>>>>>> b2af5153481a59e5582cbedc4eeb32fa21e3e8ff
   virtualTexturingSupportEnabled: 0
