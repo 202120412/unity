@@ -17,9 +17,16 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Space)==true)
+        if(Input.GetKey(KeyCode.LeftArrow)==true)
         {
-            playerRd.AddForce(0f,speed,0f);
+            transform.Translate(Vector3.left*speed*Time.deltaTime);
         }
+         if(Input.GetKey(KeyCode.RightArrow)==true)
+        {
+            transform.Translate(Vector3.right*speed*Time.deltaTime);
+        }
+        
+        
+
     }
 }
