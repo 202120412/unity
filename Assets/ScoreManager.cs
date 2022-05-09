@@ -11,7 +11,7 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       this.score = GameObject.Find("Score").GetComponent<Text> ();
+       this.score = GameObject.Find("Score").GetComponent<Text>();
        count = 0; 
     }
 
