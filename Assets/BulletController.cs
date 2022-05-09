@@ -13,10 +13,10 @@ public class BulletController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(Input.GetMouseButtonDown(0))
-       {
-           Shoot (new Vector3 (0,0,20));
-       } 
+       //if(Input.GetMouseButtonDown(0))
+       //{
+        //   Shoot (new Vector3 (0,0,-500));
+       //} 
     }
     // 총알 발사 함수
     public void Shoot (Vector3 dir)
@@ -25,9 +25,11 @@ public class BulletController : MonoBehaviour
     }
     void OnCollisionEnter (Collision coll)
     {
-        if (coll.collider.tag == "ENEMY")
+        if(coll.collider.tag == "ENEMY")
         {
-            Destroy (gameObject, 0.2f); // 오브젝트 파괴  
+            GameObject manager = GameObject.Find("ScoreManager");
+            manager.GetComponent<ScoreManager>().IncScore();
+            Destroy (gameObject, 0.02f); // 오브젝트 파괴  
         }
     }
     
